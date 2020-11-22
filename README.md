@@ -1,45 +1,48 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<h1 align="center">Up The Toffees Fanzine Site</h1> 
 
-Welcome USER_NAME,
+## **Overview**
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Welcome to Up The Toffees, a new fan site for the desirning Evertonian
+This site is being built out of the love, dedication and passion that I have for Everton Football Club.
+Even though I live 240 miles away from Goodison Park I follow them week in and week out with my season ticket.
+With this site I look to offer an insight into the history of the club and how things are looking in the modern day.
+I would also be looking to grow a following on the site with member access, this free membership in the future will offer a forum for other fans to discuss all topics Everton and the opportunity to publish blogs and host podcasts.
 
-## Gitpod Reminders
+Live project link to go here.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## **User Experience (UX)**  ##
 
-`python3 -m http.server`
+### **User Stories**
 
-A blue button should appear to click: *Make Public*,
+To capture user wants, needs and expectations I created a [Google Forms](https://forms.gle/ERQJZabSsKPZmaJj7) survey, this insight has helped mould the strategy of this website.
 
-Another blue button should appear to click: *Open Browser*.
+-  ### **When looking for content about a football club which platform would you use first?**
+![Piechart](/images/piechart01.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+**This shows that smartphone is what a majority of users to the site would use, therefore I will use Bootstrap to optimise my mobile first approach.**
 
-A blue button should appear to click: *Make Public*,
+-  ### **Which type of websites would you visit for information about your club?**
+![Piechart](/images/piechart03.png)
 
-Another blue button should appear to click: *Open Browser*.
+**Already users are visiting Fanzine Sites, so there is definately a place for this site.**
+     
+-  ### **Tell me, how you feel about how the layout of the website you chose. What changes would you like to see regarding the layout from this website?**
+     1. I find the website *cluttered with content.* I would like to see a layout that is *easier on the eye* and *simple to navigate*.
+     2. The website page is *very busy so I’d like it simplified*.
+     3. Fairly easy to use, takes some time getting use to.
+     4. The club site is *not* the easiest to navigate.
+     5. I would like the fixtures and the table to be *easier to access.*
+     6. The site I use *looks a bit basic.*
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+**A few things to consider here, my main focus will be to design a simplified website that also looks great and less cluttered.**
 
-## Updates Since The Instructional Video
+-  ### **Which topic is most important to you when researching your football club?**
+![Piechart](/images/piechart02.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+**The insight suggests at club news along with fixtures and results are key focus' for the content of this website.**
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+-  ### **If you were to visit a fanzine site, would you sign up as a member for exclusive offers and content?**
+![Piechart](/images/piechart04.png)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+**Football fans will look to join as a member of the site so I will include a sign up page for the site.**
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
