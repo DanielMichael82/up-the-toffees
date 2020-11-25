@@ -17,12 +17,12 @@ Live project link to go here.
 To capture user wants, needs and expectations I created a [Google Forms](https://forms.gle/ERQJZabSsKPZmaJj7) survey, this insight has helped mould the strategy of this website.
 
 -  ### **When looking for content about a football club which platform would you use first?**
-![Piechart](/images/piechart01.png)
+![Piechart](assets/images/piechart01.png)
 
 **This shows that smartphone is what a majority of users to the site would use, therefore I will use Bootstrap to optimise my mobile first approach.**
 
 -  ### **Which type of websites would you visit for information about your club?**
-![Piechart](/images/piechart03.png)
+![Piechart](assets/images/piechart03.png)
 
 **Already users are visiting Fanzine Sites, so there is definately a place for this site.**
      
@@ -37,12 +37,12 @@ To capture user wants, needs and expectations I created a [Google Forms](https:/
 **A few things to consider here, my main focus will be to design a simplified website that also looks great and less cluttered.**
 
 -  ### **Which topic is most important to you when researching your football club?**
-![Piechart](/images/piechart02.png)
+![Piechart](assets/images/piechart02.png)
 
 **The insight suggests at club news along with fixtures and results are key focus' for the content of this website.**
 
 -  ### **If you were to visit a fanzine site, would you sign up as a member for exclusive offers and content?**
-![Piechart](/images/piechart04.png)
+![Piechart](assets/images/piechart04.png)
 
 **Football fans will look to join as a member of the site so I will include a sign up page for the site.**
 
