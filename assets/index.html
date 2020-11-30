@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Up The Toffees | Everton FC Fansite</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+
 </head>
 <body>
 <!-- Navigation -->
-
+<div class="navigation-container">
 <nav class="navbar navbar-light bg-light navbar-expand-sm">
   <img src="./images/UTTlogo.png" width="80" height="80" alt="" loading="lazy">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,50 +26,52 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Fixtures & Results</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Sign In / Sign Up</a>
-      </li>
+        <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="">Sign In / Sign Up</a></li>
     </ul>
-  </div>
+    </div>
+    <div class="d-none d-md-block">
+    <p class="navbar-text my-auto mr-2"><i>Support the Toffees, support the site</i></p>
+    <a href="/login">Sign In / Sign Up</a>
+    </div>
 </nav>
-
-<!-- Image -->
-
-<div class="card bg-dark text-white">
-  <img src="./images/Goodison01.jpeg" class="card-img" alt="...">
-  <div class="card-img-overlay">
-    <h1 class="card-title">Up The Toffees</h1>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-  </div>
 </div>
+<!-- /.Navigation -->
+
+<!-- Score Alert-->
+<div class="container-fluid scorealert-container">
+        <div class="container-fluid scorealert-container">
+            <div class="row d-none d-sm-block">
+                <div class="col-12">
+                    <div class="site-wide-alert alert alert-warning">
+                        <strong>Everton 0-1 Leeds United</strong> Raphinha 79’<a href=""> Full Match Report Here!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+<!-- /.Score Alert -->
+
+<!-- Chant -->
+   
+<!-- /.Chant -->
 
 <!-- News -->
-
-<div class="row row-cols-1 row-cols-md-2">
+<div class="row row-cols-1 row-cols-md-3">
   <div class="col mb-4">
     <div class="card">
-      <img src="./images/Diego-Maradona-1986.jpg" class="card-img-top" alt="...">
+      <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">R.I.P. Diego Maradona</h5>
-        <p class="card-text">The football world is mourning the death of World Cup winning Argentinian football legend. <a href="url">Read More</a></p>
+        <h5 class="card-title">Everton 0-1 Leeds United</h5>
+        <p class="card-text">Raphinha celebrates his first Premier League goal for Leeds, winning the game at Goodison Park.<a href="url"> Read More</a></p>
       </div>
     </div>
   </div>
   <div class="col mb-4">
     <div class="card">
-      <img src="./images/Goodison02.png" class="card-img-top" alt="...">
+      <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Fulham 2-3 Everton</h5>
-        <p class="card-text">Yet again Everton put themselves in a difficult position as Fulham pushed for a late equaliser after being 3-1 down. <a href="url">Read More</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card">
-      <img src="./images/Goodison03.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">We're Allowed Back In (Some of us)</h5>
+         <p class="card-text">From the 2nd December 2020, the UK government have allowed fans back into football grounds all over the country if your are placed in Tier 1 or 2. <a href="url"> Read More</a></p>
       </div>
     </div>
   </div>
@@ -74,21 +80,47 @@
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">Yet again Everton put themselves in a difficult position as Fulham pushed for a late equaliser after being 3-1 down. <a href="url"> Read More</a></p>
       </div>
     </div>
   </div>
 </div>
+<!-- /.News -->
 
-<hr>
- 
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign Up To Up The Toffees!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<footer>
-
-</footer>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
+
 </html>
