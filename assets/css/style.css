@@ -1,8 +1,16 @@
 body {
-    font-family: open-sans, sans-serif;
+    font-family: Montserrat, sans-serif;
+    text-decoration-color: rgb(37, 84, 214);
+    background-color: #F0C400;
 }
 
 
-.navigation-container {}
+.navigation-container {
+    background-color: #D3D5DE;
+}
 
 .news-container {}
+
+.scorealert-container{
+    background-color: #FFD519;
+}
