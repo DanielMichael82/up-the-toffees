@@ -13,7 +13,7 @@
 <body>
 <!-- Navigation -->
 <div class="navigation-container">
-<nav class="navbar navbar-light navbar-expand-sm">
+<nav class="navbar navbar-light bg-light navbar-expand-sm">
   <img src="./images/UTTlogo.png" width="80" height="80" alt=".." loading="lazy">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -26,71 +26,46 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Fixtures & Results</a>
       </li>
-       <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="">Sign In / Sign Up</a></li>
+       <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="./assets/signup.html">Sign In / Sign Up</a></li>
     </ul>
     </div>
     <div class="d-none d-md-block">
-    <button type="button" class="btn btn-primary btn-sm">Sign In / Sign Up<a href="/login"></a></button>
+    <button type="button" class="btn btn-primary btn-sm">Sign In / Sign Up<a href="./assets/signup.html"></a></button>
     </div>
 </nav>
 <!-- /.Navigation -->
 
-<!-- Chant -->
-<div class="container chant-container">
-
-</div>
-<!-- /.Chant -->
-
-<!-- Score Alert-->
-<div class="container-fluid scorealert-container">
-    <div class="row d-none d-sm-block">
-        <div class="col-12">
-            <div class="site-wide-alert alert">
-                <strong>Everton 0-1 Leeds United</strong> Raphinha 79’<a href=""> Full Match Report Here!</a>
+<div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign Up To Up The Toffees!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
 </div>
-<!-- /.Score Alert -->
-
-<!-- News -->
-<div class="container">
-<div class="row row-cols-1 row-cols-md-3">
-  <div class="col mb-4">
-    <div class="card">
-      <img src="./images/Everton_FC.png" alt="..." class="img-thumbnail">
-      <div class="card-body">
-        <h5 class="card-title">Everton 0-1 Leeds United</h5>
-        <p class="card-text">Raphinha celebrates his first Premier League goal for Leeds, winning the game at Goodison Park.<a href="url"> Read More</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card">
-      <img src="./images/Everton_FC.png" alt="..." class="img-thumbnail">
-      <div class="card-body">
-        <h5 class="card-title">We're Allowed Back In (some of us)</h5>
-         <p class="card-text">From the 2nd December 2020, the UK government have allowed fans back into stadia all over the country.<a href="url"> Read More</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card">
-      <img src="./images/Everton_FC.png" alt="..." class="img-thumbnail">
-      <div class="card-body">
-        <h5 class="card-title">Everton 3-2 Fulham</h5>
-        <p class="card-text">Yet again Everton put themselves in a difficult position as Fulham pushed for a late equaliser after being 3-1 down. <a href="url"> Read More</a></p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-<!-- /.News -->
-<footer>
-
-</footer>
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

@@ -1,16 +1,21 @@
 body {
     font-family: Montserrat, sans-serif;
-    text-decoration-color: rgb(37, 84, 214);
-    background-color: #F0C400;
 }
-
 
 .navigation-container {
     background-color: #D3D5DE;
 }
 
-.news-container {}
-
+.chant-container {
+    background: url(./images/Goodison02.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 .scorealert-container{
     background-color: #FFD519;
 }
+
+.news-container {}
+
