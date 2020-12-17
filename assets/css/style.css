@@ -7,7 +7,7 @@ body {
 }
 
 .chant-container {
-    background: url(./images/Goodison02.png) no-repeat center center fixed;
+    background: url('./images/Goodison02.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -16,6 +16,3 @@ body {
 .scorealert-container{
     background-color: #FFD519;
 }
-
-.news-container {}
-
